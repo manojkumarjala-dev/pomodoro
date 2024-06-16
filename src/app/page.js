@@ -47,8 +47,9 @@ export default function Home() {
   const getTickingTimer = () => {
     const timeStage = {
       0:pomodoro,
-      2:shortBreak,
-      1:longBreak
+      2:longBreak,
+      1:shortBreak,
+      
     }
     return timeStage[stage]
   }

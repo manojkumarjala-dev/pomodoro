@@ -2,7 +2,7 @@ import React from 'react'
 import { FaBellSlash } from "react-icons/fa";
 
 function Timer({stage, switchStage, getTickingTimer, seconds, clocksTicking, setSeconds, ticking, setTicking, muteAlarm,reset, consumedSecond}) {
-    const options = ['Pomodoro','Long Break','Short Break']
+    const options = ['Pomodoro','Short Break','Long Break']
   return (
     <div className='flex flex-col items-center'>
 
