@@ -9,7 +9,7 @@ function Timer({stage, switchStage, getTickingTimer, seconds, clocksTicking, set
         <div className='flex justify-between pt-4 mx-auto px-2 sm:px-0 w-3/4 sm:w-1/2'>
             {
                 options.map((option,index) => {
-                    return <button key={index} className={`${stage === index ? 'bg-blue-500 text-black':''} sm:px-2 px-1 rounded-lg hover:bg-gray-600 bg-gray-100 transition`} onClick={()=>{switchStage(index);}}>{option}</button>
+                    return <button key={index} className={`${stage === index ? 'bg-blue-500 text-black':''} sm:px-2 px-1 rounded-lg text-black hover:bg-gray-600 bg-gray-100 transition`} onClick={()=>{switchStage(index);}}>{option}</button>
                 })
             }
         </div>
