@@ -1,3 +1,21 @@
+Project: PomTimer Web Application
+
+##Description:
+
+Developed a Pomodoro timer web application named PomTimer, hosted on Vercel.
+Utilized the Pomodoro technique to help users manage their time efficiently by breaking work into intervals, traditionally 25 minutes in length, separated by short breaks.
+Technologies Used:
+
+Front-End: React.js, TasilwindCSS, HTML5
+Deployment: Vercel for seamless CI/CD
+
+##Key Features:
+
+Timer Functionality: Implemented a fully functional Pomodoro timer with customizable work and break intervals.
+User Interface: Designed an intuitive and responsive user interface to enhance user experience across devices.
+State Management: Utilized React hooks for efficient state management and component lifecycle handling.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
